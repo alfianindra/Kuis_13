@@ -39,15 +39,15 @@ class HomeScreen extends StatelessWidget {
             SizedBox(height: 16),
             ProductCard(
               productName: 'Product 1',
-              productPrice: '\$50.00',
+              productPrice: 'Rp20.000',
               productImage:
-                  'assets/product1.jpg', // Ganti dengan path gambar sesuai proyek Anda
+                  'assets/images/b.png', // Ganti dengan path gambar sesuai proyek Anda
             ),
             ProductCard(
               productName: 'Product 2',
-              productPrice: '\$30.00',
+              productPrice: 'Rp30.000',
               productImage:
-                  'assets/product2.jpg', // Ganti dengan path gambar sesuai proyek Anda
+                  'assets/images/a.png', // Ganti dengan path gambar sesuai proyek Anda
             ),
             // Tambahkan lebih banyak widget ProductCard untuk produk tambahan
           ],
