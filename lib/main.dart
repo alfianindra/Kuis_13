@@ -93,13 +93,6 @@ class ProductCard extends StatelessWidget {
               'Price: $productPrice',
               style: TextStyle(fontSize: 16, color: Colors.green),
             ),
-            SizedBox(height: 8),
-            ElevatedButton(
-              onPressed: () {
-                // Tambahkan fungsionalitas untuk menambahkan produk ke keranjang
-              },
-              child: Text('Add to Cart'),
-            ),
           ],
         ),
       ),
